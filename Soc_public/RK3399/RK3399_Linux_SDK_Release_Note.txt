@@ -1,5 +1,48 @@
 ===========RK3399 Linux SDK Release Note===========
 
+¡¾rk3399_linux_release_v2.3.0_20191203.xml change log¡¿
+
+ Buildroot (2018.02-rc3):
+    - Support multivideoplayer and qsetting apps
+    - Update xserver: fix wrong rga format map and fix random crash
+    - Fixes some weston render issues
+    - Support rockchip RGA 2D accel
+    - The logs output on br.log
+
+ Kernel (4.4):
+    - Upgrade to 4.4.194
+        enable iep for rk3399 sapphire excavator linux
+	correct voltage for rk3399-firefly
+	Fixup wrong swap uv on YCrCb_420_P
+
+ rkbin (Rockchip binary):
+    - rk3399: bl32: update version to 1.21
+        Update feature:
+        07ae323c scripts: optimize checkbuild.sh
+        a87d3b09 scripts: optimize build scripts
+    - rk3399: bl31: update version to 1.30
+        42583b6 plat: rk3399: change bl31_base to 0x40000
+    - rk3399: ddr: update ddr version to v1.24 20191016
+        5ed0e6d lpddr4: add support multi frequency
+        1eb26fb RK3399: ddr: support choice uart by g_uart_info
+
+ docs/tools:
+    - Update AVL
+    - Update Soc_public
+    - Secureboottool: update to v1.95
+
+Debian (stretch-9.11):
+    - Update xserver
+    - Fixes jpeg's decode to 60fps
+    - Update test_camera for uvc
+    - Update mpp
+    - Update rga
+
+Yocto (thud 2.6.2):
+    - add rockchip-rkisp
+    - chromium-ozone-wayland: Support 78.0.3904.97g
+    - Support adding extra volumes
+
 ¡¾rk3399_linux_release_v2.2.1_20191014.xml change log¡¿
 
  Buildroot (2018.02-rc3):
