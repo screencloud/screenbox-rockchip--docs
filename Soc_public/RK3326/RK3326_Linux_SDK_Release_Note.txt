@@ -1,5 +1,43 @@
 ===========RK3326 Linux SDK Release Note===========
 
+[ rk3326_linux_release_v1.3.0_20200224.xml change log ]
+
+kernel
+1, fixes the exception that is related with display
+2, fixes wifi initialization failure
+3, fixes wifi "pno scan failed"
+
+buildroot
+1, fixes wrong capacity for mtp
+2, use qsetting application instead of old setting applcation
+3, fix seek video error
+4, support ums feature
+5, support webrtc
+6, support gcc 8.1.0
+7, add a uvc_app for camera debug test
+
+debian 10
+1, aarch64 debian 10 buster release
+
+[ rk3326_linux_release_v1.2.2_20191205.xml change log ]
+
+kernel
+1, fixes upgrade issue for nand flash
+
+rkbin
+1,fixes IDB backup regions break up the FTL data region
+
+u-boot
+1,fixes IDB backup regions break up the FTL data region
+
+camera_engine_rkisp
+1, remove dependancy with libdrm that fixes the crash whitout the display system
+
+[ rk3326_linux_release_v1.2.1_20191012.xml change log ]
+
+kernel
+1,Fix the low-propability crash whilst high cpu frequency and low ddr frequency at the same time
+
 [rk3326_linux_release_v1.20_20190916.xml change log]
 
 Buildroot(2018.02-rc3)
