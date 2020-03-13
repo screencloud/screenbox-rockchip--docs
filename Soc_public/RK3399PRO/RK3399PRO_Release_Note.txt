@@ -1,4 +1,26 @@
 ===========RK3399PRO Linux SDK Release Note===========
+rk3399pro_linux_release_v1.2.2_20200312.xml Release Note:
+
+Buildroot (2018.02-rc3):
+    - fixes random crash during hot plugging monitors
+    - remove npu_fw_pvtm-32k for rk3399pro v14 npu firmware
+    - fixes npu_powerctrl_combine for rk3399pro v14
+
+Kernel (4.4):
+    - fixes the s2r for rk817
+    - fixes the camera for rk3399pro-evb-v14-linux
+
+Debian (stretch-9.12):
+    - update ffmpeg/gstreamer/xserver/libdrm to support xvimagesink and mpv
+    - update test_dec-gst.sh and test_dec-mpv.sh for tests
+    - update npu image to v1.3.1 for rk3399pro v14
+
+docs:
+    - add release_patch for every Socs
+    - add ebian10 guide v1.0.0
+    - add mpp/weston/chromecast documents
+    - update v1.2.2 documents for rk3399pro
+
 rk3399pro_linux_release_v1.2.1_20200214.xml Release Note:
 
 Buildroot (2018.02-rc3):
