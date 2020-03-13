@@ -1,7 +1,7 @@
-From f70c2a48316475d131a5ab3a95e0eb2d17f434c4 Mon Sep 17 00:00:00 2001
+From 1714398fe3ee3acf6a5e22def3a048d8f8bedf30 Mon Sep 17 00:00:00 2001
 From: Caesar Wang <wxt@rock-chips.com>
 Date: Tue, 17 Sep 2019 06:07:21 +0000
-Subject: [PATCH 1/2] config: add needed config for tests
+Subject: [PATCH] config: add needed config for tests
 
 Due to the ffmpeg's copyright, the sdk had to disable some configs.
 
