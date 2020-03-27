@@ -1,5 +1,5 @@
 ===========RK3399PRO Linux SDK Release Note===========
-rk3399pro_linux_release_v1.2.2_20200312.xml Release Note:
+rk3399pro_linux_release_v1.3.0_20200324.xml Release Note:
 
 Buildroot (2018.02-rc3):
     - fixes random crash during hot plugging monitors

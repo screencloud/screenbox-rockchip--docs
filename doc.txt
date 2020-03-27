@@ -121,39 +121,47 @@
 │       └── Rockchip_Developer_Guide_Linux_WDT_CN.pdf
 ├── Linux
 │   ├── ApplicationNote
-│   │   ├── Rockchip-Developer-Guide-Debian-Docker.pdf
-│   │   ├── Rockchip_Developer_Guide_DeviceIo_Key_CN.pdf
-│   │   ├── Rockchip_Developer_Guide_DeviceIo_Led_CN.pdf
+│   │   ├── Rockchip_Debian10_Developer_Guide_CN.pdf
+│   │   ├── Rockchip_Developer_Guide_Buildroot_Weston_CN.pdf
+│   │   ├── Rockchip_Developer_Guide_Debian_Docker_EN.pdf
 │   │   ├── Rockchip_Developer_Guide_Linux_DS5_Streamline_CN.pdf
 │   │   ├── Rockchip_Developer_Guide_Linux_PCBA_CN.pdf
 │   │   ├── Rockchip_Developer_Guide_Linux_SPL_MTD_CN.pdf
+│   │   ├── Rockchip_Developer_Guide_Linux_SPL_MTD_EN.pdf
 │   │   ├── Rockchip_Developer_Guide_Linux_Stresstests_CN.pdf
+│   │   ├── Rockchip_Developer_Guide_QT_Application_CN.pdf
+│   │   ├── Rockchip_Instruction_Buildroot_Chromecast_CN.pdf
+│   │   ├── Rockchip_Instruction_Linux_QT_WebEngine_CN.pdf
+│   │   ├── Rockchip_Instruction_Linux_QT_WebEngine_EN.pdf
 │   │   ├── Rockchip_Instruction_Linux_ROS_CN.pdf
 │   │   ├── Rockchip_Instruction_Linux_ROS_EN.pdf
+│   │   ├── Rockchip_Introduction_RK3308_DeviceIo_Key_CN.pdf
+│   │   ├── Rockchip_Introduction_RK3308_DeviceIo_Key_EN.pdf
+│   │   ├── Rockchip_Introduction_RK3308_DeviceIo_Led_CN.pdf
+│   │   ├── Rockchip_Introduction_RK3308_DeviceIo_Led_EN.pdf
 │   │   ├── Rockchip_Quick_Start_Linux_USB_Gadget_CN.pdf
+│   │   ├── Rockchip_Quick_Start_Linux_USB_Gadget_EN.pdf
 │   │   └── The Buildroot User Manual.pdf
-│   ├── Display
+│   ├── Graphics
+│   │   ├── Rockchip_Developer_Guide_Linux_Graphics_CN.pdf
 │   │   ├── Rockchip_Developer_Guide_Linux_HDMI_CEC_CN.pdf
 │   │   ├── Rockchip_Developer_Guide_Linux_HDMI_CEC_EN.pdf
-│   │   ├── Rockchip_Instruction_Linux_Debian_Dual_Display_Audio_CN .pdf
-│   │   └── Rockchip_Instruction_Linux_Debian_Dual_Display_CN .pdf
-│   ├── GUI
 │   │   ├── Rockchip_Developer_Guide_Linux_MiniGUI_Desktop_CN.pdf
-│   │   └── Rockchip_Developer_Guide_QT_Application_CN.pdf
+│   │   └── Rockchip_Developer_Guide_Linux_MiniGUI_Desktop_EN.pdf
 │   ├── Multimedia
-│   │   ├── camera_engine_rkisp_user_manual_v2.0.pdf
-│   │   ├── Camera_External_FAQ_v1.0 .pdf
-│   │   ├── CIF_ISP10_Driver_User_Manual_v1.0.pdf
+│   │   ├── camera
+│   │   │   ├── camera_engine_rkisp_user_manual_v2.0.pdf
+│   │   │   ├── Camera_External_FAQ_v1.0.pdf
+│   │   │   ├── RKISP1_IQ_Parameters_User_Guide_v1.0_20190603.pdf
+│   │   │   ├── RKISP_Driver_User_Manual_v1.2_20190508_EN.pdf
+│   │   │   ├── RKISP_Driver_User_Manual_v1.2_20190508.pdf
+│   │   │   ├── Rockchip_Developer_Guide_Linux_Camera_CN.pdf
+│   │   │   ├── Rockchip_Developer_Guide_Linux_Camera_EN.pdf
+│   │   │   └── Rockchip_Trouble_Shooting_Linux4.4_Camera_CN.pdf
 │   │   ├── Linux rga说明文档.pdf
+│   │   ├── MPP development reference_v0.3.pdf
 │   │   ├── MPP 开发参考_v0.3.pdf
-│   │   ├── RK_IQ_XML参数说明-v5.0.pdf
-│   │   ├── RK_ISP10_Camera_User_Manual_v2.3.pdf
-│   │   ├── RKISP1_IQ_Parameters_User_Guide_v1.0_20190603.pdf
-│   │   ├── RKISP_Driver_User_Manual_v1.2_20190508_EN.pdf
-│   │   ├── RKISP_Driver_User_Manual_v1.2_20190508.pdf
 │   │   ├── Rockchip_Camera_AVL_v2.1_Package_20181016.7z
-│   │   ├── Rockchip_Developer_Guide_Linux_Camera_CN.pdf
-│   │   ├── Rockchip_Developer_Guide_Linux_Camera_EN.pdf
 │   │   ├── Rockchip_Developer_Guide_Linux_DLNA_CN.pdf
 │   │   ├── Rockchip_Developer_Guide_Linux_Gstreamer_CN.pdf
 │   │   ├── Rockchip_Developer_Guide_Linux_OpenCV_CN.pdf
@@ -163,7 +171,8 @@
 │   │   ├── Rockchip_Developer_Guide_Linux_Fragment_Upgrade_CN.pdf
 │   │   ├── Rockchip_Developer_Guide_Linux_Recovery_CN.pdf
 │   │   ├── Rockchip_Developer_Guide_Linux_Recovery_EN.pdf
-│   │   └── Rockchip_Developer_Guide_Linux_Upgrade_CN.pdf
+│   │   ├── Rockchip_Developer_Guide_Linux_Upgrade_CN.pdf
+│   │   └── Rockchip_Developer_Guide_Linux_Upgrade_EN.pdf
 │   ├── Secure
 │   │   ├── Rockchip_Developer_Guide_Linux4.4_SecureBoot_CN.pdf
 │   │   └── Rockchip_Developer_Guide_Linux4.4_SecureBoot_EN.pdf
@@ -192,14 +201,26 @@
 │       ├── RK平台AP WIFI自定义MAC地址.pdf
 │       ├── RK平台_RTL8723DS_AIRKISS配网说明.pdf
 │       ├── Rockchip_Developer_Guide_DeviceIo_Bluetooth_CN.pdf
-│       ├── Rockchip_Developer_Guide_DeviceIo_WIFI_CN.pdf
 │       ├── Rockchip_Developer_Guide_Linux_WIFI_BT_CN.pdf
 │       ├── Rockchip_Developer_Guide_Linux_WIFI_BT_EN.pdf
 │       ├── Rockchip_Developer_Guide_Network_Config_CN.pdf
+│       ├── Rockchip_Introduction_RK3308_DeviceIo_WIFI_CN.pdf
+│       ├── Rockchip_Introduction_RK3308_DeviceIo_WIFI_EN.pdf
 │       ├── WIFI MONITOR 抓包示例.txt
 │       └── WIFI性能测试
 │           ├── iperf-2.0.5-2-win32.zip
 │           └── 性能测试.txt
+├── Release_patches
+│   └── RK3399PRO
+│       ├── buildroot
+│       │   ├── 0001-configs-rockchip-rk3399pro-enable-chromium-needed-co.patch
+│       │   └── git-merge-base.txt
+│       ├── kernel
+│       │   ├── 0001-arm64-dts-rockchip-change-uart1-for-debug-port.patch
+│       │   └── git-merge-base.txt
+│       └── rkbin
+│           ├── 0001-rkbin-change-uart1-for-miniloader.patch
+│           └── git-merge-base.txt
 ├── Rockchip_Developer_Guide_Linux_Software_CN.pdf
 ├── Rockchip_Developer_Guide_Linux_Software_EN.pdf
 ├── Soc_public
@@ -207,12 +228,13 @@
 │   │   ├── PX30_Linux_SDK_Release_Note.txt
 │   │   ├── PX30 MINI EVB硬件操作指南_20180710.pdf
 │   │   ├── Rockchip PX30 Datasheet V1.1-20180918.pdf
-│   │   ├── Rockchip_PX30_Linux_SDK_Release_V1.2.0_20190916_CN.pdf
-│   │   └── Rockchip_PX30_Linux_SDK_Release_V1.2.0_20190916_EN.pdf
+│   │   ├── Rockchip_PX30_Linux_SDK_Release_V1.3.0_20200224_CN.pdf
+│   │   └── Rockchip_PX30_Linux_SDK_Release_V1.3.0_20200224_EN.pdf
 │   ├── RK1808
 │   │   ├── RK1808 Linux SDK Release Note.txt
 │   │   ├── RK1808 EVB用户指南_V10_20181226.pdf
 │   │   ├── Rockchip_Developer_Guide_Linux_RKNN_DEMO_CN.pdf
+│   │   ├── Rockchip_RK1806_Developer_Guide_Linux_Ficial_Gate_CN.pdf
 │   │   ├── Rockchip_RK1808_Developer_Guide_Linux_Compute_Stick_CN.pdf
 │   │   ├── Rockchip_RK1808_Developer_Guide_Linux_Docker_CN.pdf
 │   │   ├── Rockchip_RK1808_Instruction_Linux_AI_Camera_Demo_CN.pdf
@@ -228,8 +250,8 @@
 │   │   ├── RK3326_Linux_SDK_Release_Note.txt
 │   │   ├── RK3326 Multimedia Codec Benchmark v1.1.pdf
 │   │   ├── Rockchip RK3326 Datasheet V1.1 20180411.pdf
-│   │   ├── Rockchip_RK3326_Linux_SDK_Release_V1.2.0_20190916_CN.pdf
-│   │   └── Rockchip_RK3326_Linux_SDK_Release_V1.2.0_20190916_EN.pdf
+│   │   ├── Rockchip_RK3326_Linux_SDK_Release_V1.3.0_20200224_CN.pdf
+│   │   └── Rockchip_RK3326_Linux_SDK_Release_V1.3.0_20200224_EN.pdf
 │   ├── RK3328
 │   │   ├── RK3328 BOX EVB硬件使用指南V1.0_20170223.pdf
 │   │   ├── RK3328_Linux_Release_Note.pdf
@@ -248,8 +270,8 @@
 │   │   └── Rockchip RK3399挖掘机用户使用指南_V3.0_20190305.pdf
 │   └── RK3399PRO
 │       ├── RK3399PRO_Linux_SDK_Release_Note.txt
-│       ├── RK3399Pro_Linux_SDK_Release_V1.2.0_20191224_CN.pdf
-│       ├── RK3399Pro_Linux_SDK_Release_V1.2.0_20191224_EN.pdf
+│       ├── RK3399Pro_Linux_SDK_Release_V1.3.0_20200324_CN.pdf
+│       ├── RK3399Pro_Linux_SDK_Release_V1.3.0_20200324_EN.pdf
 │       ├── Rockchip_Developer_Guide_Linux_RKNN_DEMO_CN.pdf
 │       ├── Rockchip_Developer_Guide_Linux_RKNN_DEMO_EN.pdf
 │       ├── Rockchip_RK3399Pro_Instruction_Linux_NPU_CN.pdf
@@ -267,3 +289,4 @@
     ├── SecureBoot开发工具指南.pdf
     ├── WNpctool简要使用说明_V1.1.0_0920.pdf
     └── 瑞芯微开发工具手册_v1.1.pdf
+
